@@ -61,7 +61,7 @@ var postsData = {
 		"pic" : cori_pic,
 		"quote" : cori_quote,
 		"date" : "Aug 36, 2017",
-		"title" : "Ahh Poo",
+		"title" : "Boo",
 		"media" : ["http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg"],
 		"summary" : "So no things happened.",
 		"post" : "So some things happened. \
