@@ -1,0 +1,36 @@
+<div class="container">
+   <div class="row">
+      <div class="col-sm-6">
+
+    	  	    <h2>Of Times.</h2>
+              <h4>100% Gluten Free since 1909</h4>
+
+      </div>
+  </div>
+  <div class="row spacer"></div>
+  <div class="row">
+   
+      <a href="/#/posts/{{newestPost.id}}" ng-click="setPost(newestPost.id)">
+        <p class="center"><img src={{newestPost.media[0]}}></img><br></p>
+        <h3 class="center">{{newestPost.title}}</h3>
+      </a>
+      <i>by {{newestPost.author}}</i><br>
+      {{newestPost.post}}<br>
+    
+  </div>
+  <div class="row spacer"></div>
+  <div class="row">
+  	<div class="col-md-4" ng-repeat="post in posts">
+      <div class="well">
+      	<a href="/#/posts/{{post.id}}" ng-click="setPost(post.id)">
+      		<h4>{{post.title}}</h4>
+        	{{post.summary}}<br>
+        	<i>{{post.date}}</i>
+    	  </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
